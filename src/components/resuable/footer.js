@@ -36,12 +36,12 @@ export const Footer = () => {
                     <Col lg={3} className='d-none d-sm-block'>
                         <div className='d-flex align-items-center justify-content-center'>
                             <ul class="footer-nav">
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/about">About Us</a></li>
-                                <li><a href="/programs">Programms</a></li>
-                                <li><a href="/heros">Heros</a></li>
-                                <li><a href="/gallery">Gallery</a></li>
-                                <li><a href="/donate">Donate</a></li>
+                                <li><a href="/#">Home</a></li>
+                                <li><a href="/#about">About Us</a></li>
+                                <li><a href="/#programs">Programms</a></li>
+                                <li><a href="/#heros">Heros</a></li>
+                                <li><a href="/#gallery">Gallery</a></li>
+                                <li><a href="/#donate">Donate</a></li>
                             </ul>
                         </div>
 
