@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/triCKY05/pjsy.git",
+  "homepage": "https://sarankumar007.github.io/pjsy/",
   "name": "pjsym",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +14,7 @@
     "bootstrap-icons": "^1.11.3",
     "cors": "^2.8.5",
     "framer-motion": "^11.1.7",
+    "hash-router": "^0.4.0",
     "nodemailer": "^6.9.13",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",

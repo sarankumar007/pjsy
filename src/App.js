@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { HomePage } from './components/home/home_page';
 import { NavBar } from './components/resuable/nav';
 import { AboutUsPage } from './components/about/aboutus_page';
@@ -12,7 +12,7 @@ import GalleryPage from './components/gallery/galler_page';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavBar />
       <Routes>
         <Route path='/' element={<HomePage />} />
@@ -22,7 +22,7 @@ function App() {
         <Route path='/gallery' element={<GalleryPage />} />
         <Route path='/donate' element={<Donate />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
